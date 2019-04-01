@@ -66,5 +66,13 @@ public class Venta {
 	private Date dtFecVen;
 	private int idCliente;
 	private double douImporte;
-		
+	
+	public Venta(int idVenta, Date dtFecVen, int idCliente, double douImporte) {
+		super();
+		this.idVenta = idVenta;
+		this.dtFecVen = dtFecVen;
+		this.idCliente = idCliente;
+		this.douImporte = douImporte;
+	}
+	
 }
